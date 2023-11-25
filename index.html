@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+    <title>Agenda Fácil NAF</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <img class="img" src="./img/logo-unifeso.png" alt="Logo Agenda Fácil UNIFESO">
+
+        
+            
+        </div>
+
+    
+    <div class="caixa-principal">
+        <nav>
+            <h2 class="Agenda Fácil Unifeso"> Agenda Fácil Unifeso</h2>
+            <ul> 
+                <li>Home</li>
+                <li>Perfil do Usuário</li>
+                <li>Feedback e Avaliação</li>
+            </ul>
+        </nav>
+        <form> 
+            <fieldset>
+                <div>
+                    <br/>
+                    <ul>
+                        <h3> Preencha os campos abaixo para fazer seu agendamento! </h3>
+                    </ul>
+                    <br/>
+                    <label>Nome </label>
+                    <input type="test" nome="name" id="nome" > 
+                </div>
+        
+                <div> 
+                    <label>Sobrenome </label>
+                    <input type="test" nome ="sobrenome" id="sobrenome">
+                </div>
+        
+                <div> 
+                    <labe>Email</labe>
+                    <input type="email" nome = email id="email"> 
+                </div>
+
+                <div>
+                    <label>Telefone</label>
+                    <input type="telefone" nome = telefone id="telefone">
+                </div>
+            </fieldset>
+        
+               
+                
+            <div>
+                <br/>
+                <label> Escolha uma das opções de turno abaixo: </label>
+                <label>
+                    <br/>
+                    <input type="radio" nome="Agenda" value="Agendamento"> Manhã
+                </label>
+                
+                <label>
+                    <input type="radio" nome = "Agenda" value="Agendamento"> Tarde
+                </label> 
+                <br/>
+        
+                <br/>
+                <div class="field ArchetypesCalendarWidget " id="archetypes-fieldname-data-de-atendimento" data-fieldname="data-de-atendimento">
+                    <span></span>
+                    
+                    
+                    
+                    <div class="fieldErrorBox"></div>
+                    
+                    <div class="formQuestion label">
+                        Data de atendimento
+                        <span class="required" title="Obrigatório">&nbsp;</span>
+                        <span class="formHelp" id="data-de-atendimento_help"></span>
+                    </div>
+                    
+                      <div class="plone_jscalendar">
+          
+                <input type="hidden" name="data-de-atendimento" id="edit_form_data-de-atendimento_0">
+                <input type="hidden" id="data-de-atendimento">
+          
+                
+          
+                
+                  <label class="hiddenStructure" style="float:left" for="edit_form_data-de-atendimento_0_year"></label>
+                  <span>
+                     <select name="data-de-atendimento_year" id="edit_form_data-de-atendimento_0_year" size="1">
+                    <option value="0000" selected="selected">--</option>
+                    <option value="2023">2023</option>
+          
+                    </select>
+                  </span>
+          
+                  
+          
+                  <span>/</span>
+          
+                  <span>
+                  <label class="hiddenStructure" style="float:left" for="edit_form_data-de-atendimento_0_month"></label>
+                  <select name="data-de-atendimento_month" id="edit_form_data-de-atendimento_0_month" size="1">
+                    <option value="00" selected="selected">--</option>
+                    <option value="01">janeiro</option>
+                    <option value="02">fevereiro</option>
+                    <option value="03">março</option>
+                    <option value="04">abril</option>
+                    <option value="05">maio</option>
+                    <option value="06">junho</option>
+                    <option value="07">julho</option>
+                    <option value="08">agosto</option>
+                    <option value="09">setembro</option>
+                    <option value="10">outubro</option>
+                    <option value="11">novembro</option>
+                    <option value="12">dezembro</option>
+                  </select>
+                  </span>
+          
+                  <span>/</span>
+          
+                  <label class="hiddenStructure" style="float:left" for="edit_form_data-de-atendimento_0_day"></label>
+                  <select name="data-de-atendimento_day" id="edit_form_data-de-atendimento_0_day" size="1">
+                  
+                      <option value="00" selected="selected">--</option>
+                      <option value="01">1</option>
+                      <option value="02">2</option>
+                      <option value="03">3</option>
+                      <option value="04">4</option>
+                      <option value="05">5</option>
+                      <option value="06">6</option>
+                      <option value="07">7</option>
+                      <option value="08">8</option>
+                      <option value="09">9</option>
+                      <option value="10">10</option>
+                      <option value="11">11</option>
+                      <option value="12">12</option>
+                      <option value="13">13</option>
+                      <option value="14">14</option>
+                      <option value="15">15</option>
+                      <option value="16">16</option>
+                      <option value="17">17</option>
+                      <option value="18">18</option>
+                      <option value="19">19</option>
+                      <option value="20">20</option>
+                      <option value="21">21</option>
+                      <option value="22">22</option>
+                      <option value="23">23</option>
+                      <option value="24">24</option>
+                      <option value="25">25</option>
+                      <option value="26">26</option>
+                      <option value="27">27</option>
+                      <option value="28">28</option>
+                      <option value="29">29</option>
+                      <option value="30">30</option>
+                      <option value="31">31</option>
+                  
+                  </select>
+                  <span class="plone-jscalendar-popup" style="display:none" id="edit_form_data-de-atendimento_0_popup">
+                    <input type="hidden" name="data-de-atendimento_yearStart" id="edit_form_data-de-atendimento_0_yearStart" value="0000">
+                    <input type="hidden" name="data-de-atendimento_yearEnd" id="edit_form_data-de-atendimento_0_yearEnd" value="2023">
+                  </span>
+          
+                
+          
+                &nbsp;
+                
+          
+                <span>
+                  <input name="data-de-atendimento_hour" type="hidden" id="edit_form_data-de-atendimento_0_hour" size="1" value="00">
+                </span>
+          
+                
+          
+                
+          
+                <span>
+                  <input name="data-de-atendimento_minute" type="hidden" id="edit_form_data-de-atendimento_0_minute" size="1" value="00">
+                </span>
+          
+          
+                
+          
+                <span>
+                  <input name="data-de-atendimento_ampm" type="hidden" id="edit_form_data-de-atendimento_0_ampm" size="1" value="">
+          
+                </span>
+              </div>
+                    
+                  
+                  </div>
+              
+             <br/>
+            <fieldset class="grupo">
+                <!-- Campo de horários para escolha de 1 opção para marcar -->
+                <div class="campo">
+                    <label for="horário"><strong>Escolha um horário de sua preferência</strong></label>
+                    <select id="horário" required>
+                      <option selected disabled value="">Selecione</option>
+                      <option>08:00</option>
+                      <option>09:00</option>
+                      <option>10:00</option>
+                      <option>11:00</option>
+                      <option>13:00</option>
+                      <option>14:00</option>
+                      <option>15:00</option>
+                      <option>16:00</option>
+
+                    </select>
+                </div>
+            </fieldset>
+        
+            <!-- Botão para enviar o formulário -->
+            <button class="botao" type="submit" onsubmit="">Concluído
+
+            </button>   
+           
+        
+        
+        </form>
+
+
+        
+        </body>
+        
+        </html>
+        
+        
+            </body>
+        </html>
