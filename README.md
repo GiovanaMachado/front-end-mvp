@@ -26,11 +26,11 @@ RF3 - O usuário deve preencher seus dados nos campos, e-mail, nome, sobrenome e
 
 Requisitos Não Funcionais
 
-RNF - O sistema terá que ficar disponível 24 horas por dia.
+RNF1 - O sistema terá que ficar disponível 24 horas por dia.
 
-RNF - O programa deve ser fácil e usar e estar sempre atualizando.
+RNF2 - O programa deve ser fácil e usar e estar sempre atualizando.
 
-RNF - O sistema deve ser capaz de lidar com o número necessário de usuários sem qualquer degradação no desempenho.
+RNF3 - O sistema deve ser capaz de lidar com o número necessário de usuários sem qualquer degradação no desempenho.
 
 
 Protipação 
