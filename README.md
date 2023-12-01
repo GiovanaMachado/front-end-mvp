@@ -19,13 +19,17 @@ Com o desafio de criar um website que proporcione facilicdade e agilidade de age
 Requisitos Funcionais e Não Funcionais 
 
 RF1 - O sistema deve mostrar os horários disponíveis e permitir o agendamento presencial dos serviços do NAF.
+
 RF2 - O sistema deve permitimir que o usuário escolha o dia e o mês de sua preferência.
+
 RF3 - O usuário deve preencher seus dados nos campos, e-mail, nome, sobrenome e telefone.
 
 Requisitos Não Funcionais
 
 RNF - O sistema terá que ficar disponível 24 horas por dia.
+
 RNF - O programa deve ser fácil e usar e estar sempre atualizando.
+
 RNF - O sistema deve ser capaz de lidar com o número necessário de usuários sem qualquer degradação no desempenho.
 
 
